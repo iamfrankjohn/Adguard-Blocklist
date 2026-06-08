@@ -1,0 +1,303 @@
+! Title: Master AdGuard Blocklist (All Categories)
+! Description: Combined blocklist referencing all General, Security, Regional, and Other lists available in AdGuard Home
+! Homepage: https://adguard.com
+! Last modified: 2026-06-08
+! Version: 1.0
+!
+! ============================================================
+! HOW TO USE:
+! 1. Open AdGuard Home > Filters > DNS Blocklists
+! 2. Click "Add blocklist" > "Add a custom list"
+! 3. Paste each URL below one at a time, OR
+!    use this file as a local custom list by uploading it.
+!
+! This file uses AdGuard's "!#include" directive to pull in
+! all remote lists. If your AdGuard version does not support
+! includes, use the URLs section at the bottom instead.
+! ============================================================
+
+!#include https://adguardteam.github.io/HostlistsRegistry/assets/filter_24.txt
+! ^ 1Hosts (Lite)
+
+!#include https://adguardteam.github.io/HostlistsRegistry/assets/filter_25.txt
+! ^ 1Hosts (Xtra)
+
+!#include https://adguardteam.github.io/HostlistsRegistry/assets/filter_15.txt
+! ^ AdGuard DNS filter
+
+!#include https://adguardteam.github.io/HostlistsRegistry/assets/filter_19.txt
+! ^ AdGuard DNS Popup Hosts filter
+
+!#include https://adguardteam.github.io/HostlistsRegistry/assets/filter_51.txt
+! ^ AWAvenue Ads Rule
+
+!#include https://adguardteam.github.io/HostlistsRegistry/assets/filter_4.txt
+! ^ Dan Pollock's List
+
+!#include https://adguardteam.github.io/HostlistsRegistry/assets/filter_44.txt
+! ^ HaGeZi's Normal Blocklist
+
+!#include https://adguardteam.github.io/HostlistsRegistry/assets/filter_45.txt
+! ^ HaGeZi's Pro Blocklist
+
+!#include https://adguardteam.github.io/HostlistsRegistry/assets/filter_46.txt
+! ^ HaGeZi's Pro++ Blocklist
+
+!#include https://adguardteam.github.io/HostlistsRegistry/assets/filter_49.txt
+! ^ HaGeZi's Ultimate Blocklist
+
+!#include https://adguardteam.github.io/HostlistsRegistry/assets/filter_27.txt
+! ^ OISD Blocklist Small
+
+!#include https://adguardteam.github.io/HostlistsRegistry/assets/filter_28.txt
+! ^ OISD Blocklist Big
+
+!#include https://adguardteam.github.io/HostlistsRegistry/assets/filter_6.txt
+! ^ Peter Lowe's Blocklist
+
+!#include https://adguardteam.github.io/HostlistsRegistry/assets/filter_31.txt
+! ^ ShadowWhisperer Tracking List
+
+!#include https://adguardteam.github.io/HostlistsRegistry/assets/filter_33.txt
+! ^ Steven Black's List
+
+
+! ============================================================
+! SECURITY - Malicious, Phishing, and Scam Domain Lists
+! ============================================================
+
+!#include https://adguardteam.github.io/HostlistsRegistry/assets/filter_30.txt
+! ^ Phishing URL Blocklist (PhishTank and OpenPhish)
+
+!#include https://adguardteam.github.io/HostlistsRegistry/assets/filter_12.txt
+! ^ Dandelion Sprout's Anti-Malware List
+
+!#include https://adguardteam.github.io/HostlistsRegistry/assets/filter_48.txt
+! ^ HaGeZi's Badware Hoster Blocklist
+
+!#include https://adguardteam.github.io/HostlistsRegistry/assets/filter_60.txt
+! ^ HaGeZi's DNS Rebind Protection
+
+!#include https://adguardteam.github.io/HostlistsRegistry/assets/filter_61.txt
+! ^ HaGeZi's DynDNS Blocklist
+
+!#include https://adguardteam.github.io/HostlistsRegistry/assets/filter_62.txt
+! ^ HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass
+
+!#include https://adguardteam.github.io/HostlistsRegistry/assets/filter_63.txt
+! ^ HaGeZi's The World's Most Abused TLDs
+
+!#include https://adguardteam.github.io/HostlistsRegistry/assets/filter_64.txt
+! ^ HaGeZi's Threat Intelligence Feeds
+
+!#include https://adguardteam.github.io/HostlistsRegistry/assets/filter_65.txt
+! ^ HaGeZi's URL Shortener Blocklist
+
+!#include https://adguardteam.github.io/HostlistsRegistry/assets/filter_8.txt
+! ^ NoCoin Filter List
+
+!#include https://adguardteam.github.io/HostlistsRegistry/assets/filter_50.txt
+! ^ Phishing Army
+
+!#include https://adguardteam.github.io/HostlistsRegistry/assets/filter_53.txt
+! ^ Scam Blocklist by DurableNapkin
+
+!#include https://adguardteam.github.io/HostlistsRegistry/assets/filter_42.txt
+! ^ ShadowWhisperer's Malware List
+
+!#include https://adguardteam.github.io/HostlistsRegistry/assets/filter_32.txt
+! ^ Stalkerware Indicators List
+
+!#include https://adguardteam.github.io/HostlistsRegistry/assets/filter_9.txt
+! ^ The Big List of Hacked Malware Web Sites
+
+!#include https://adguardteam.github.io/HostlistsRegistry/assets/filter_50.txt
+! ^ uBlock filters – Badware risks
+
+!#include https://adguardteam.github.io/HostlistsRegistry/assets/filter_34.txt
+! ^ Malicious URL Blocklist (URLHaus)
+
+
+! ============================================================
+! REGIONAL - Regional Ads and Tracking Server Lists
+! ============================================================
+
+!#include https://adguardteam.github.io/HostlistsRegistry/assets/filter_47.txt
+! ^ CHN: AdRules DNS List
+
+!#include https://adguardteam.github.io/HostlistsRegistry/assets/filter_48.txt
+! ^ CHN: anti-AD
+
+!#include https://adguardteam.github.io/HostlistsRegistry/assets/filter_23.txt
+! ^ HUN: Hufilter
+
+!#include https://adguardteam.github.io/HostlistsRegistry/assets/filter_21.txt
+! ^ IDN: ABPindo
+
+!#include https://adguardteam.github.io/HostlistsRegistry/assets/filter_13.txt
+! ^ IRN: PersianBlocker list
+
+!#include https://adguardteam.github.io/HostlistsRegistry/assets/filter_16.txt
+! ^ ISR: EasyList Hebrew
+
+!#include https://adguardteam.github.io/HostlistsRegistry/assets/filter_17.txt
+! ^ KOR: List-KR DNS
+
+!#include https://adguardteam.github.io/HostlistsRegistry/assets/filter_18.txt
+! ^ KOR: YousList
+
+!#include https://adguardteam.github.io/HostlistsRegistry/assets/filter_39.txt
+! ^ LIT: EasyList Lithuania
+
+!#include https://adguardteam.github.io/HostlistsRegistry/assets/filter_22.txt
+! ^ MKD: Macedonian Pi-hole Blocklist
+
+!#include https://adguardteam.github.io/HostlistsRegistry/assets/filter_11.txt
+! ^ NOR: Dandelion Sprouts nordiske filtre
+
+!#include https://adguardteam.github.io/HostlistsRegistry/assets/filter_29.txt
+! ^ POL: CERT Polska List of malicious domains
+
+!#include https://adguardteam.github.io/HostlistsRegistry/assets/filter_14.txt
+! ^ POL: Polish filters for Pi-hole
+
+!#include https://adguardteam.github.io/HostlistsRegistry/assets/filter_36.txt
+! ^ SWE: Frellwit's Swedish Hosts File
+
+!#include https://adguardteam.github.io/HostlistsRegistry/assets/filter_26.txt
+! ^ TUR: turk-adlist
+
+!#include https://adguardteam.github.io/HostlistsRegistry/assets/filter_43.txt
+! ^ TUR: Turkish Ad Hosts
+
+!#include https://adguardteam.github.io/HostlistsRegistry/assets/filter_41.txt
+! ^ VNM: ABPVN List
+
+
+! ============================================================
+! OTHER - Miscellaneous Blocklists
+! ============================================================
+
+!#include https://adguardteam.github.io/HostlistsRegistry/assets/filter_38.txt
+! ^ Dandelion Sprout's Anti Push Notifications
+
+!#include https://adguardteam.github.io/HostlistsRegistry/assets/filter_10.txt
+! ^ Dandelion Sprout's Game Console Adblock List
+
+!#include https://adguardteam.github.io/HostlistsRegistry/assets/filter_55.txt
+! ^ HaGeZi's Allowlist Referral
+
+!#include https://adguardteam.github.io/HostlistsRegistry/assets/filter_58.txt
+! ^ HaGeZi's Anti-Piracy Blocklist
+
+!#include https://adguardteam.github.io/HostlistsRegistry/assets/filter_56.txt
+! ^ HaGeZi's Apple Tracker Blocklist
+
+!#include https://adguardteam.github.io/HostlistsRegistry/assets/filter_57.txt
+! ^ HaGeZi's Gambling Blocklist
+
+!#include https://adguardteam.github.io/HostlistsRegistry/assets/filter_59.txt
+! ^ HaGeZi's OPPO & Realme Tracker Blocklist
+
+!#include https://adguardteam.github.io/HostlistsRegistry/assets/filter_66.txt
+! ^ HaGeZi's Samsung Tracker Blocklist
+
+!#include https://adguardteam.github.io/HostlistsRegistry/assets/filter_67.txt
+! ^ HaGeZi's Vivo Tracker Blocklist
+
+!#include https://adguardteam.github.io/HostlistsRegistry/assets/filter_68.txt
+! ^ HaGeZi's Windows/Office Tracker Blocklist
+
+!#include https://adguardteam.github.io/HostlistsRegistry/assets/filter_69.txt
+! ^ HaGeZi's Xiaomi Tracker Blocklist
+
+!#include https://adguardteam.github.io/HostlistsRegistry/assets/filter_35.txt
+! ^ No Google
+
+!#include https://adguardteam.github.io/HostlistsRegistry/assets/filter_52.txt
+! ^ Perflyst and Dandelion Sprout's Smart-TV Blocklist
+
+!#include https://adguardteam.github.io/HostlistsRegistry/assets/filter_37.txt
+! ^ ShadowWhisperer's Dating List
+
+!#include https://adguardteam.github.io/HostlistsRegistry/assets/filter_54.txt
+! ^ Ukrainian Security Filter
+
+
+! ============================================================
+! ALTERNATIVE: Direct Subscription URLs
+! If the #include directives above don't work in your version
+! of AdGuard, add these URLs one-by-one via the AdGuard Home
+! UI under Filters > DNS Blocklists > Add Blocklist.
+! ============================================================
+!
+! === GENERAL ===
+! 1Hosts Lite:           https://o0.pages.dev/Lite/hosts.txt
+! 1Hosts Xtra:           https://o0.pages.dev/Xtra/hosts.txt
+! AdGuard DNS filter:    https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
+! AdGuard Popup Hosts:   https://adguardteam.github.io/HostlistsRegistry/assets/filter_19.txt
+! AWAvenue Ads Rule:     https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt
+! Dan Pollock's List:    https://someonewhocares.org/hosts/zero/hosts
+! HaGeZi Normal:         https://hagezi.dns.timber.cf/lists/multi.txt
+! HaGeZi Pro:            https://hagezi.dns.timber.cf/lists/pro.txt
+! HaGeZi Pro++:          https://hagezi.dns.timber.cf/lists/pro.plus.txt
+! HaGeZi Ultimate:       https://hagezi.dns.timber.cf/lists/ultimate.txt
+! OISD Small:            https://small.oisd.nl/domainswild
+! OISD Big:              https://big.oisd.nl/domainswild
+! Peter Lowe's List:     https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus&showintro=1&mimetype=plaintext
+! ShadowWhisperer:       https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Tracking
+! Steven Black's List:   https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
+!
+! === SECURITY ===
+! PhishTank+OpenPhish:   https://adguardteam.github.io/HostlistsRegistry/assets/filter_30.txt
+! Dandelion Anti-Malware:https://adguardteam.github.io/HostlistsRegistry/assets/filter_12.txt
+! HaGeZi Badware:        https://hagezi.dns.timber.cf/lists/badware-hoster.txt
+! HaGeZi DNS Rebind:     https://hagezi.dns.timber.cf/lists/doh-vpn-proxy-bypass.txt
+! HaGeZi DynDNS:         https://hagezi.dns.timber.cf/lists/dyndns.txt
+! HaGeZi Encrypted DNS:  https://hagezi.dns.timber.cf/lists/doh-vpn-proxy-bypass.txt
+! HaGeZi Abused TLDs:    https://hagezi.dns.timber.cf/lists/most-abused-tlds.txt
+! HaGeZi Threat Intel:   https://hagezi.dns.timber.cf/lists/threat-intelligence-feeds.txt
+! HaGeZi URL Shortener:  https://hagezi.dns.timber.cf/lists/urlshortener.txt
+! NoCoin Filter:         https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt
+! Phishing Army:         https://phishing.army/download/phishing_army_blocklist_extended.txt
+! Scam DurableNapkin:    https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/adguard.txt
+! ShadowWhisperer Malware:https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Malware
+! Stalkerware:           https://raw.githubusercontent.com/AssoEchap/stalkerware-indicators/master/generated/hosts
+! Hacked Malware Sites:  https://raw.githubusercontent.com/mitchellkrogza/The-Big-List-of-Hacked-Malware-Web-Sites/master/hosts
+! uBlock Badware:        https://adguardteam.github.io/HostlistsRegistry/assets/filter_50.txt
+! URLHaus Malicious:     https://urlhaus.abuse.ch/downloads/hostfile/
+!
+! === REGIONAL ===
+! CHN AdRules:           https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-domains.txt
+! CHN anti-AD:           https://anti-ad.net/easylist.txt
+! HUN Hufilter:          https://hufilter.hu/hufilter-dns.txt
+! IDN ABPindo:           https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/subscriptions/abpindo.txt
+! IRN PersianBlocker:    https://raw.githubusercontent.com/MasterKia/PersianBlocker/main/PersianBlockerHosts.txt
+! ISR EasyList Hebrew:   https://raw.githubusercontent.com/easylist/EasyListHebrew/master/EasyListHebrew.txt
+! KOR List-KR:           https://raw.githubusercontent.com/List-KR/List-KR/master/filter-DNS.txt
+! KOR YousList:          https://raw.githubusercontent.com/yous/YousList/master/hosts.txt
+! LIT EasyList Lithuania:https://raw.githubusercontent.com/EasyList-Lithuania/easylist_lithuania/master/easylistlithuania.txt
+! MKD Macedonian:        https://raw.githubusercontent.com/Advertiser-Blocklist/Macedonian/master/pi-hole-blocklist.txt
+! NOR Dandelion Nordic:  https://raw.githubusercontent.com/DandelionSprout/adfilt/master/NorwegianExperimentalList%20alternate%20versions/NordicFiltersHosts.txt
+! POL CERT Polska:       https://hole.cert.pl/domains/domains_hosts.txt
+! POL Polish Pi-hole:    https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/hostfile.txt
+! SWE Frellwit:          https://raw.githubusercontent.com/lassekongo83/Frellwit-s-filter-list/master/Frellwits-Swedish-Hosts-File.txt
+! TUR turk-adlist:       https://raw.githubusercontent.com/bkrucarci/turk-adlist/master/hosts
+! TUR Turkish Ad Hosts:  https://raw.githubusercontent.com/Turkiye-Adblock-Lists/Turkish-Ad-Hosts/main/hosts.txt
+! VNM ABPVN:             https://raw.githubusercontent.com/abpvn/abpvn/master/filter/src/abpvn_adguard.txt
+!
+! === OTHER ===
+! Anti Push Notifications:https://raw.githubusercontent.com/DandelionSprout/adfilt/master/AntiPopAdsList.txt
+! Game Console Adblock:   https://raw.githubusercontent.com/DandelionSprout/adfilt/master/GameConsoleAdblockList.txt
+! HaGeZi Anti-Piracy:    https://hagezi.dns.timber.cf/lists/anti.piracy.txt
+! HaGeZi Apple Tracker:  https://hagezi.dns.timber.cf/lists/apple-tracker.txt
+! HaGeZi Gambling:       https://hagezi.dns.timber.cf/lists/gambling.txt
+! HaGeZi OPPO/Realme:    https://hagezi.dns.timber.cf/lists/oppo-realme-tracker.txt
+! HaGeZi Samsung:        https://hagezi.dns.timber.cf/lists/samsung-tracker.txt
+! HaGeZi Vivo:           https://hagezi.dns.timber.cf/lists/vivo-tracker.txt
+! HaGeZi Windows:        https://hagezi.dns.timber.cf/lists/windows-tracker.txt
+! HaGeZi Xiaomi:         https://hagezi.dns.timber.cf/lists/xiaomi-tracker.txt
+! No Google:             https://raw.githubusercontent.com/nickspaargaren/no-google/master/pihole-google.txt
+! Smart-TV Blocklist:    https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV-AGH.txt
+! ShadowWhisperer Dating:https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Dating
+! Ukrainian Security:    https://adguardteam.github.io/HostlistsRegistry/assets/filter_54.txt
