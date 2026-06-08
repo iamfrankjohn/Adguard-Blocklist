@@ -1,0 +1,88 @@
+! =========================================================
+! UNIFIED MASTER BLOCKLIST — 09 CUSTOM RULES
+! AdGuard Home Optimized
+! =========================================================
+! Rules in this file: 65
+! Compiled: 2026-06-08
+! Part of: Unified_Master_Blocklist_Categorized
+! =========================================================
+
+! --- CORE ADS & TRACKERS (1 rules) ---
+||rubiconproject.com^
+
+! --- TRACKING / ANALYTICS (8 rules) ---
+||optimizely.com^
+||logrocket.com^
+||clicky.com^
+||statcounter.com^
+||parsely.com^
+||datadog-browser-agent.com^
+||intercom.io^
+||intercomcdn.com^
+
+! --- FINGERPRINTING / ID SYNCING (1 rules) ---
+||liveramp.com^
+
+! --- POPUPS / REDIRECTS / URL SHORTENERS (17 rules) ---
+||shorte.st^
+||adf.ly^
+||ouo.io^
+||linkvertise.com^
+||pushpush.net^
+||megapush.com^
+||hilltopads.net^
+||popunder.net^
+||underwayads.com^
+||webmine.pro^
+||notifyweb.co^
+||updatenow.net^
+||securepcfix.com^
+||yourdeviceneedsupdate.com^
+||windowsdefenderalert.com^
+||fake-captcha.com^
+||captcha-confirm.com^
+
+! --- PUSH NOTIFICATION SPAM (11 rules) ---
+||onesignal.com^        # WARNING: also used by legit apps for real notifications — review before enabling
+||vwo.com^
+||luckycola.ph^
+||peso888.com^
+||betso88.com^
+||winfordbet.com^
+||lodibet.com^
+||hawkplay.net^
+||milyon88.com^
+||747live.net^
+||phlwin.com^
+
+! --- ADULT CONTENT (24 rules) ---
+||pornhub.com^
+||xvideos.com^
+||xhamster.com^
+||xnxx.com^
+||spankbang.com^
+||redtube.com^
+||youporn.com^
+||onlyfans.com^
+||fansly.com^
+||brazzers.com^
+||naughtyamerica.com^
+||bangbros.com^
+||mofos.com^
+||realitykings.com^
+||tube8.com^
+||beeg.com^
+||hclips.com^
+||eporner.com^
+||txxx.com^
+||porntrex.com^
+||4tube.com^
+||drtuber.com^
+||keezmovies.com^
+||slutload.com^
+
+! --- PIRACY / ILLEGAL STREAMING (3 rules) ---
+||123movies.net^
+||yts.mx^
+||movies123.net^
+
